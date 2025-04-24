@@ -5,8 +5,7 @@
   "scripts": {
     "test": "jest",
     "prepare": "husky",
-    "lint": "eslint src/**",
-    "lint-init": "eslint --init"
+    "lint": "eslint src/**"
   },
   "keywords": [],
   "author": "",
