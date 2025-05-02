@@ -1,4 +1,5 @@
 const sum = require('../src/sum');
+console.log(sum)
 
 it('should return correct sum', () => {
     const theResult = sum( 2, 5)
