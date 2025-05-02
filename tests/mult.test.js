@@ -1,6 +1,6 @@
-const mult = require('../src/mult')
+const result = require('../src/mult');
 
 it('should return correct mult', () => { 
-    const nextResult = mult(3, 5) 
-    expect(nextResult).toBe(15) 
+    const nextResult = result( 3, 5 ) 
+    expect(nextResult).toBe( 15 ) 
 })

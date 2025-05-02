@@ -2,10 +2,12 @@
   "name": "git-hooks-nodejs",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "prepare": "husky",
-    "lint": "eslint src/**"
+    "lint": "eslint src/**",
+    "lint-fix": "eslint src/** --fix"
   },
   "keywords": [],
   "author": "",
