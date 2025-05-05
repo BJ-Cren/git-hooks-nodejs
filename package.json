@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "jest",
+    "prepare": "cd .. && husky install client/.husky",
     "lint": "eslint src/**",
     "lint-fix": "eslint src/** --fix",
     "success-message": "echo Thanks for committing $GIT_AUTHOR_NAME"
@@ -27,7 +28,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npx lint-staged",
+      "pre-commit": "lint-staged",
       "post-commit": "npm run success-message"
     }
   },
